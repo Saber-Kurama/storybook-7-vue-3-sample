@@ -13,7 +13,10 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "7.0.0-beta.29",
+    "@storybook/addon-backgrounds": "7.0.0-beta.29",
     "@storybook/addon-controls": "7.0.0-beta.29",
+    "@storybook/addon-measure": "7.0.0-beta.29",
+    "@storybook/addon-outline": "7.0.0-beta.29",
     "@storybook/addon-viewport": "7.0.0-beta.29",
     "@storybook/vue3-vite": "7.0.0-beta.29",
     "@vitejs/plugin-vue": "^4.0.0",

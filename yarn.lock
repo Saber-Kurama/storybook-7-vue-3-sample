@@ -1184,6 +1184,22 @@
     ts-dedent "^2.0.0"
     uuid-browser "^3.1.0"
 
+"@storybook/addon-backgrounds@7.0.0-beta.29":
+  version "7.0.0-beta.29"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-7.0.0-beta.29.tgz#0f95bf6ef35c1f00caf1191e5cdf8f3716a88484"
+  integrity sha512-/FYobnlpc1yH5UrBJOz0l/ahLLAm7vfUJS+IMQ1qL56rVDPzPP758Tr4y0z9eqsUDuBhbackiH6o36pPAdIR/A==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.29"
+    "@storybook/components" "7.0.0-beta.29"
+    "@storybook/core-events" "7.0.0-beta.29"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.29"
+    "@storybook/preview-api" "7.0.0-beta.29"
+    "@storybook/theming" "7.0.0-beta.29"
+    "@storybook/types" "7.0.0-beta.29"
+    memoizerific "^1.11.3"
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-controls@7.0.0-beta.29":
   version "7.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-7.0.0-beta.29.tgz#59354c345c18cc19ec8f8ca18299fa9453a2c4a1"
@@ -1199,6 +1215,33 @@
     "@storybook/theming" "7.0.0-beta.29"
     "@storybook/types" "7.0.0-beta.29"
     lodash "^4.17.21"
+    ts-dedent "^2.0.0"
+
+"@storybook/addon-measure@7.0.0-beta.29":
+  version "7.0.0-beta.29"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-measure/-/addon-measure-7.0.0-beta.29.tgz#ea994337f8abecd68d524bcdbae2358373595def"
+  integrity sha512-B1tuvUcvJLSOFTlovcr2pau56rDPunqAr7GH9hLC+zKqWYMK3EwAK0lsJdaLRTr2HCMkjiZRyS1+Gw1BogR7aw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.29"
+    "@storybook/components" "7.0.0-beta.29"
+    "@storybook/core-events" "7.0.0-beta.29"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.29"
+    "@storybook/preview-api" "7.0.0-beta.29"
+    "@storybook/types" "7.0.0-beta.29"
+
+"@storybook/addon-outline@7.0.0-beta.29":
+  version "7.0.0-beta.29"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-outline/-/addon-outline-7.0.0-beta.29.tgz#3f1640fe03d768753b775b6c8df4ab3369e494b7"
+  integrity sha512-DKZENhuyilf8oiIY2nkIKIL2iC1yh5nJWna5DWbWkRvb/VHlIBM8KtGhrQpj6zfdZs/JqzA6TUGMNikTptOxkg==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.29"
+    "@storybook/components" "7.0.0-beta.29"
+    "@storybook/core-events" "7.0.0-beta.29"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.29"
+    "@storybook/preview-api" "7.0.0-beta.29"
+    "@storybook/types" "7.0.0-beta.29"
     ts-dedent "^2.0.0"
 
 "@storybook/addon-viewport@7.0.0-beta.29":
