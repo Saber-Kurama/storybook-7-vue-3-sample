@@ -7,18 +7,6 @@ type Story = StoryObj<typeof MyButton>;
 const meta: Meta<typeof MyButton> = {
   title: "MyButton",
   component: MyButton,
-};
-
-export const Basic: Story = {
-  name: "基本例子",
-  render: () => ({
-    components: { MyButton },
-    template: "<MyButton label='按钮' />",
-  }),
-};
-
-export const Login: Story = {
-  name: "登录的例子",
   render: (args: any) => ({
     components: { MyButton },
     setup() {
@@ -26,6 +14,36 @@ export const Login: Story = {
     },
     template: "<MyButton v-bind='args' />",
   }),
+  args: {
+    label: "按钮",
+    variant: "primary",
+    size: "medium",
+  },
+  argTypes: {
+    variant: {
+      control: {
+        type: "inline-radio",
+      },
+      options: ["primary", "secondary"],
+    },
+    size: {
+      control: {
+        type: "select",
+      },
+      options: ["small", "medium", "large"],
+    },
+  },
+};
+
+export const Basic: Story = {
+  name: "基本例子",
+  args: {
+    label: "按钮",
+  },
+};
+
+export const Login: Story = {
+  name: "登录的例子",
   args: {
     label: "登录",
   },
