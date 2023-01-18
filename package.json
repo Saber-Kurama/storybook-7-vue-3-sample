@@ -12,6 +12,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "7.0.0-beta.29",
     "@storybook/vue3-vite": "7.0.0-beta.29",
     "@vitejs/plugin-vue": "^4.0.0",
     "react": "^18.2.0",
