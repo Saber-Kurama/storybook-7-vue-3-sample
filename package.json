@@ -20,6 +20,7 @@
     "@storybook/addon-viewport": "7.0.0-beta.29",
     "@storybook/vue3-vite": "7.0.0-beta.29",
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "7.0.0-beta.29",
